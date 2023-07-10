@@ -1,0 +1,63 @@
+/* <!-- assignment one --> */
+
+/* div{
+    text-transform: capitalize;
+    text-shadow: 1px 1px 0px red,
+                     2px 2px 0px blue;         using chatgpt 
+} */
+
+/* <!-- assignment two --> */
+/* 
+.one {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.two {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.three {
+    text-align: center;
+} */
+
+/* <!-- assignment three --> */
+
+/* div {
+    background-color: #EEE;
+    width: 400px;
+} */
+
+/* div{
+    background-color: #EEE;
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 13px;
+} */
+
+/* div {
+    background-color: #EEE;
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 13px;
+} */
+
+/* <!-- assignment four --> */
+
+/* a {
+    color: aliceblue;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(38, 175, 129);
+    border-bottom: 8px solid black;
+    text-transform: capitalize;
+    text-decoration: none;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+} */

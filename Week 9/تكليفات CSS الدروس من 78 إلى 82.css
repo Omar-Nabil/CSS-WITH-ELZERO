@@ -1,0 +1,47 @@
+/* one */
+
+/* div.main.red{
+    color: red;
+} */
+
+/* two */
+
+/* div:nth-child(2){
+    color: red;
+}  */
+
+/* three */
+
+/* .parent > div:only-child{
+    color: red;
+} */
+
+/* four */
+
+/* body > div[title]:not(.no-need){
+    color: red;
+} */
+
+/* five */
+
+/* div:nth-child(2) div[title]:last-child{
+    color: red;
+}  */
+
+/* six */
+
+/* div:not(.no-need) div:nth-last-of-type(2){
+    color: red;
+} */
+
+/* seven */
+
+/* div:first-child div:nth-last-child(2){
+    color: red;
+} */
+
+/* eight */
+
+/* div div:not(:first-child):not(:last-child) {
+    color: red;
+} */

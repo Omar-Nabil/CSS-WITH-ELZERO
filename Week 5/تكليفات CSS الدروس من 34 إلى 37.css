@@ -1,0 +1,98 @@
+/* one */
+
+
+div {
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    background-color: #EEE;
+    margin-bottom: 20px;
+    margin-left: calc(50% - 150px) ;
+    padding-top: 27px;
+}
+
+
+
+div:empty {
+    background-color: red;
+}
+
+/* two */
+
+div {
+    
+    background-color: #D4D4D4;
+    width: 300px;
+    padding: 30px;
+    margin-left: calc(50% - 200px);
+    position: relative;
+}
+
+div::first-letter {
+    color: white;
+    background-color: red;
+    padding: 4px;
+    float: left;
+    margin-left: -38px;
+    position: absolute;
+}
+
+
+/* three */
+
+
+p {
+    background-color: #EFEFEF;
+    width: 400px;
+    padding: 20px;
+    position: relative;
+    margin: 15px auto;
+    border-left: 5px solid #E91E63;
+}
+
+p::before {
+    content: attr(data-person);
+    background-color: #EEE;
+    float: left;
+    position: absolute;
+    left: -150px;
+    padding: 7px;
+}
+
+p::after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #E91E63 transparent transparent;
+    position: absolute;
+    left: -30px;
+}
+
+
+/* four */
+
+p {
+    width: 400px;
+    margin: 15px auto;
+    background-color: #EEE;
+    border-right: 3px solid red;
+    padding: 7px;
+    position: relative;
+    counter-increment: c;
+}
+
+p::before {
+    content: counter(c);
+    position: absolute;
+    text-align: center;
+    height: 30px;
+    width: 20px;
+    float: left;
+    left: -20px;
+    top: 0px;
+    background-color: red;
+    color: white;
+    padding-top: 4px;
+}

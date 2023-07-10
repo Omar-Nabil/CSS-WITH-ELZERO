@@ -1,0 +1,46 @@
+/* <!-- assignment one --> */
+/* div {
+    display: inline-block;
+    outline: 5px solid black;
+    margin: 50px;
+    padding: 50px;
+}
+
+.s1 {
+    border: 5px solid red;
+}
+
+.s2 {
+    border-left: 5px solid green;
+    border-right: 5px solid green;
+    border-bottom: 5px solid blue;
+    border-top: 5px solid blue;
+}
+
+.s3 {
+    border-left: 5px dashed yellow;
+    border-right: 5px dashed green;
+    border-bottom: 5px dashed blue;
+    border-top: 5px dashed red;
+} */
+
+/* <!-- assignment two --> */
+/* 
+div{
+    padding: 20px;
+    background-color: #EEE;
+    outline: 7px solid #EEE;
+}
+
+.s1 {
+    border-left: 5px solid red;
+}
+
+.s2 {
+    border-left: 5px solid red;
+    visibility: hidden;
+}
+
+.s3 {
+    border-left: 5px solid green;
+} */
